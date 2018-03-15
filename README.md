@@ -1,6 +1,6 @@
 # Using CNTK Managed API to predict iris species within the Iris dataset via REST
 
-The idea is taken from excellent blog by Bahrudin Hrnjica (https://bhrnjica.net)
+The classifier code is taken from excellent blog by Bahrudin Hrnjica (https://bhrnjica.net)
 Windows hosting service added with WebApi support, for tests use ConsoleHost project.
 
 Use of postman tool is highly recommended (https://www.getpostman.com) 
