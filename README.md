@@ -16,9 +16,9 @@ Use of postman tool is highly recommended (https://www.getpostman.com)
 * Token is not validated as this time.
   
 *Dependencies*
-* C#/.NET 4.7.1
-* CNTK 2.4.0
-* WInApi 5.2.4
-* Owin 4.0
-* Topshelf 4.0.3
-* log4net 2.0.5 
+* C#/.NET 4.8.0
+* CNTK 2.7.0
+* WInApi 5.2.7
+* Owin 4.1.1
+* Topshelf 4.3.0
+* log4net 2.0.12
