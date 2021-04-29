@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: log4net
+    versions:
+    - 2.0.12
+  - dependency-name: Topshelf.Log4Net
+    versions:
+    - 4.2.1
+  - dependency-name: Topshelf
+    versions:
+    - 4.2.1
+  - dependency-name: CNTK.CPUOnly
+    versions:
+    - 2.7.0
+  - dependency-name: CNTK.Deps.OpenCV.Zip
+    versions:
+    - 2.7.0
+  - dependency-name: Microsoft.AspNet.WebApi.Client
+    versions:
+    - 5.2.7
+  - dependency-name: Microsoft.AspNet.WebApi.WebHost
+    versions:
+    - 5.2.7
+  - dependency-name: Microsoft.AspNet.WebApi.Owin
+    versions:
+    - 5.2.7
+  - dependency-name: Microsoft.AspNet.WebApi.Core
+    versions:
+    - 5.2.7
+  - dependency-name: Microsoft.AspNet.WebApi.OwinSelfHost
+    versions:
+    - 5.2.7
